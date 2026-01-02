@@ -1,0 +1,27 @@
+{
+  "name": "microui.c",
+  "version": "2.2.0",
+  "description": "A tiny immediate-mode UI library; rxi (2018).",
+  "keywords": [
+    "c",
+    "library",
+    "ui",
+    "gui",
+    "immediate mode",
+    "graphics"
+  ],
+  "homepage": "https://github.com/nodef/microui.c#readme",
+  "bugs": {
+    "url": "https://github.com/nodef/microui.c/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/microui.c.git"
+  },
+  "license": "MIT",
+  "author": "wolfram77@gmail.com",
+  "main": "microui.h",
+  "scripts": {
+    "test": "bash build.sh test"
+  }
+}
