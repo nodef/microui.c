@@ -23,5 +23,9 @@
   "main": "microui.h",
   "scripts": {
     "test": "bash build.sh test"
+  },
+  "devDependencies": {
+    "glad.c": "^1.2025.12",
+    "glfw3.c": "^3.4.3"
   }
 }
