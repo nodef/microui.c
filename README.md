@@ -16,28 +16,11 @@ A *tiny*, portable, immediate-mode UI library written in ANSI C
 
 Run:
 
-```sh
+```bash
 $ npm i microui.c
 ```
 
 And then include `microui.h` as follows:
-
-```c
-// main.c
-#define MICROUI_IMPLEMENTATION
-#include "node_modules/microui.c/microui.h"
-
-int main() { /* ... */ }
-```
-
-And then compile with `clang` or `gcc` as usual.
-
-```bash
-$ clang main.c  # or, use gcc
-$ gcc   main.c
-```
-
-You may also use a simpler approach:
 
 ```c
 // main.c
@@ -47,11 +30,18 @@ You may also use a simpler approach:
 int main() { /* ... */ }
 ```
 
-If you add the path `node_modules/microui.c` to your compiler's include paths.
+Finally, compile while adding the path `node_modules/microui.c` to your compiler's include paths.
 
 ```bash
 $ clang -I./node_modules/microui.c main.c  # or, use gcc
 $ gcc   -I./node_modules/microui.c main.c
+```
+
+You may also use a simpler approach with the [cpoach](https://www.npmjs.com/package/cpoach.sh) tool, which automatically adds the necessary include paths of all the installed dependencies for your project.
+
+```bash
+$ cpoach clang main.c  # or, use gcc
+$ cpoach gcc   main.c
 ```
 
 <br>
@@ -109,6 +99,7 @@ the terms of the MIT license. See [LICENSE](LICENSE) for details.
 <br>
 
 
+[![](https://raw.githubusercontent.com/qb40/designs/gh-pages/0/image/11.png)](https://wolfram77.github.io)<br>
 [![SRC](https://img.shields.io/badge/src-repo-green?logo=Org)](https://github.com/rxi/microui)
 [![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
 ![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/utf8.c)

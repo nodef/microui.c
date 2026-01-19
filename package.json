@@ -1,6 +1,6 @@
 {
   "name": "microui.c",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "A tiny immediate-mode UI library; rxi (2018).",
   "keywords": [
     "c",
